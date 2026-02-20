@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halawie Education | Generasi Al-Qur'an & Kreatif Digital</title>
-    
     <!-- Libraries -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Playfair+Display:wght@700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
-    
     <style>
         :root {
             --color-maroon: #800000;
@@ -19,69 +17,68 @@
             --color-black: #1A1A1A;
             --color-cream: #FFFDF9;
         }
-
-        body {
+  body {
             font-family: 'Fredoka', sans-serif;
             background-color: var(--color-cream);
             color: var(--color-black);
         }
 
-        .font-serif { font-family: 'Playfair Display', serif; }
+ .font-serif { font-family: 'Playfair Display', serif; }
         .font-arabic { font-family: 'Amiri', serif; }
 
-        .text-maroon { color: var(--color-maroon); }
+ .text-maroon { color: var(--color-maroon); }
         .bg-maroon { background-color: var(--color-maroon); }
         .border-gold { border-color: var(--color-gold); }
         
-        .nav-sticky {
+ .nav-sticky {
             background: rgba(255, 253, 249, 0.9);
             backdrop-filter: blur(10px);
             border-bottom: 1px solid rgba(212, 175, 55, 0.1);
         }
 
-        .btn-gold {
+.btn-gold {
             background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
             color: white;
             box-shadow: 0 4px 15px rgba(184, 134, 11, 0.3);
             transition: all 0.3s ease;
         }
         
-        .btn-gold:hover {
+ .btn-gold:hover {
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(184, 134, 11, 0.4);
         }
 
-        .reveal {
+ .reveal {
             opacity: 0;
             transform: translateY(20px);
             transition: all 0.6s ease-out;
         }
 
-        .reveal.active {
+ .reveal.active {
             opacity: 1;
             transform: translateY(0);
         }
 
-        .card-program {
+ .card-program {
             background: white;
             border: 1px solid #F4E4AD;
             border-radius: 40px 10px 40px 10px;
             transition: all 0.3s ease;
         }
 
-        .card-program:hover {
+ .card-program:hover {
             border-color: var(--color-maroon);
             transform: translateY(-5px);
             box-shadow: 0 10px 30px rgba(128, 0, 0, 0.05);
         }
 
-        .hero-frame {
+ .hero-frame {
             border: 8px solid white;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
             border-radius: 60px 5px 60px 5px;
         }
 
-        .spinner {
+  .spinner {
             border: 3px solid rgba(212, 175, 55, 0.3);
             border-radius: 50%;
             border-top: 3px solid #D4AF37;
@@ -94,8 +91,7 @@
     </style>
 </head>
 <body class="antialiased">
-
-    <!-- Navigasi -->
+ <!-- Navigasi -->
     <nav class="fixed top-0 w-full z-50 nav-sticky">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center gap-3">
@@ -113,8 +109,7 @@
             </div>
         </div>
     </nav>
-
-    <!-- Hero Section -->
+ <!-- Hero Section -->
     <section class="relative pt-32 pb-20 px-6 min-h-[90vh] flex items-center overflow-hidden">
         <div class="absolute inset-0 z-0">
             <!-- BACKGROUND UTAMA -->
@@ -122,7 +117,7 @@
             <div class="absolute inset-0 bg-white/75 backdrop-blur-[2px]"></div>
         </div>
 
-        <div class="relative z-10 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center w-full">
+ <div class="relative z-10 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center w-full">
             <div class="reveal">
                 <span class="inline-block px-4 py-1 bg-gold-light text-maroon rounded-full text-xs font-bold mb-6">Partner Belajar Anak Hebat</span>
                 <h1 class="text-4xl md:text-6xl font-serif text-black leading-tight mb-6">
@@ -142,7 +137,7 @@
                 <div class="hero-frame overflow-hidden aspect-[4/5] bg-white flex items-center justify-center relative">
                     <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=800&auto=format&fit=crop" alt="Anak Muslimah Belajar Kreatif" class="w-full h-full object-cover">
                     
-                    <div class="absolute bottom-4 left-4 right-4 bg-white/95 p-4 rounded-xl shadow-lg border border-gold-light">
+<div class="absolute bottom-4 left-4 right-4 bg-white/95 p-4 rounded-xl shadow-lg border border-gold-light">
                         <div class="flex items-center gap-2 mb-1">
                             <span class="flex h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
                             <p class="text-xs font-bold text-maroon uppercase tracking-widest">Sesi Belajar Aktif</p>
@@ -155,8 +150,7 @@
             </div>
         </div>
     </section>
-
-    <!-- Program Section -->
+ <!-- Program Section -->
     <section id="program" class="py-24 bg-white">
         <div class="max-w-6xl mx-auto px-6">
             <div class="text-center mb-16 reveal">
@@ -164,7 +158,7 @@
                 <p class="text-gray-500">Kurikulum terintegrasi untuk kecerdasan spiritual dan intelektual</p>
             </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+ <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- Program 1 -->
                 <div class="card-program p-8 reveal" style="transition-delay: 0.1s">
                     <div class="w-12 h-12 bg-gold-light rounded-xl flex items-center justify-center text-2xl mb-6">📖</div>
@@ -192,8 +186,7 @@
             </div>
         </div>
     </section>
-
-    <!-- AI Assistant Section -->
+<!-- AI Assistant Section -->
     <section id="ai-assistant" class="py-20 bg-cream">
         <div class="max-w-4xl mx-auto px-6">
             <div class="bg-white rounded-[40px] border-2 border-gold-light p-8 md:p-12 shadow-sm reveal">
@@ -203,7 +196,7 @@
                     <p class="text-gray-500 text-sm">Bantu pilihkan program terbaik sesuai minat si kecil melalui AI</p>
                 </div>
                 
-                <div class="space-y-6">
+ <div class="space-y-6">
                     <div>
                         <label class="block text-xs font-bold text-gray-400 uppercase mb-2">Minat atau Kesulitan Anak</label>
                         <textarea id="ai-input" placeholder="Contoh: Anak saya kelas 3 SD, senang menggambar tapi sulit fokus saat mengaji..." class="w-full px-5 py-4 rounded-2xl bg-cream border-2 border-gold-light/30 focus:border-gold outline-none min-h-[120px] text-sm"></textarea>
@@ -213,14 +206,13 @@
                         <div id="ai-loader" class="spinner hidden"></div>
                     </button>
                     
-                    <div id="ai-response" class="hidden mt-8 p-6 rounded-2xl bg-cream border border-gold-light/50 text-sm leading-relaxed text-gray-700 whitespace-pre-line">
+ <div id="ai-response" class="hidden mt-8 p-6 rounded-2xl bg-cream border border-gold-light/50 text-sm leading-relaxed text-gray-700 whitespace-pre-line">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Paket Belajar -->
+<!-- Paket Belajar -->
     <section id="paket" class="py-24 bg-white">
         <div class="max-w-6xl mx-auto px-6">
             <div class="text-center mb-16 reveal">
@@ -228,7 +220,7 @@
                 <p class="text-gray-500">Materi komprehensif: Al-Qur'an, Digital, hingga Akademik Sekolah</p>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-8 items-stretch">
+ <div class="grid md:grid-cols-3 gap-8 items-stretch">
                 <!-- Paket TK -->
                 <div class="bg-cream border border-gold-light rounded-[40px] p-8 reveal flex flex-col shadow-sm" style="transition-delay: 0.1s">
                     <div class="text-center mb-6">
@@ -249,8 +241,7 @@
                     </div>
                     <a href="https://wa.me/085871509096?text=Halo%20saya%20Tertarik%20dengan%20Halawie%20Education%20atau%20Ingin%20Berkonsultasi%20Terkait%20Pembelajaran" class="w-full py-3 rounded-2xl border border-maroon text-maroon text-center font-bold hover:bg-maroon hover:text-white transition-all">Pilih Paket</a>
                 </div>
-
-                <!-- Paket SD (Highlight) -->
+<!-- Paket SD (Highlight) -->
                 <div class="bg-white border-2 border-gold rounded-[40px] p-8 reveal flex flex-col shadow-xl relative scale-105 z-10" style="transition-delay: 0.2s">
                     <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gold text-white px-6 py-1 rounded-full text-xs font-bold uppercase tracking-widest">Paling Lengkap</div>
                     <div class="text-center mb-6">
@@ -273,8 +264,7 @@
                     </div>
                     <a href="https://wa.me/085871509096?text=Halo%20saya%20Tertarik%20dengan%20Halawie%20Education%20atau%20Ingin%20Berkonsultasi%20Terkait%20Pembelajaran" class="w-full py-4 rounded-2xl btn-gold text-center font-bold">Daftar Sekarang</a>
                 </div>
-
-                <!-- Paket SMP -->
+ <!-- Paket SMP -->
                 <div class="bg-cream border border-gold-light rounded-[40px] p-8 reveal flex flex-col shadow-sm" style="transition-delay: 0.3s">
                     <div class="text-center mb-6">
                         <span class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2 block">Jenjang SMP</span>
@@ -299,8 +289,7 @@
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
+<!-- Footer -->
     <footer class="bg-black text-white py-16 px-6">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-3 gap-12 mb-12">
@@ -331,7 +320,7 @@
         </div>
     </footer>
 
-    <script>
+ <script>
         function reveal() {
             var reveals = document.querySelectorAll(".reveal");
             for (var i = 0; i < reveals.length; i++) {
